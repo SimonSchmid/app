@@ -31,7 +31,7 @@ var OOP = (function() {
     }
 
     //Save the package-scoped properties of the class in the package so other
-    //classes in the same package get access to them
+    //classes in the same package get access to them.
     //Furthermore, set a private package property of the class to its package
     //so the package is accessible inside the class via "this.package"
     var thePackage = packages[packageName];
