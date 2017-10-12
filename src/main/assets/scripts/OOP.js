@@ -31,7 +31,7 @@ var OOP = (function() {
     }
 
     //Save the package-scoped properties of the class in the package so other
-    //classes in the same package get access to them
+    //classes in the same package get access to them.
     //Furthermore, set a private package property of the class to its package
     //so the package is accessible inside the class via "this.package"
     var thePackage = packages[packageName];
@@ -99,7 +99,7 @@ var OOP = (function() {
         // - package methods are in private and package scope (not available publicly)
         // - public methods are in private, package and public scope (available everywhere)
         // Furthermore, each method is bound to the private scope - from inside a class method 
-        // we can then access every class method and property using "this"
+        // we can then access every class method and property using "this".
         // 
         
         if (typeof properties[modifiedPropertyName] === "function")
