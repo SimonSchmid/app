@@ -28,7 +28,7 @@ public class FullscreenActivity extends Activity {
 
         setContentView(R.layout.activity_fullscreen);
 
-        //Make sure webview is fullscreen and in immersive mode
+        // Make sure webview is fullscreen and in immersive mode
         View v = findViewById(R.id.webView);
         v.setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
