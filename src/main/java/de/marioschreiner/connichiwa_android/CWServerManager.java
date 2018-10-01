@@ -50,6 +50,7 @@ public class CWServerManager {
         return this.started;
     }
 
+    // TODO doc
     public void setDelegate(CWServerManagerDelegate delegate) {
         this.delegate = delegate;
         if (this.httpServer != null) this.httpServer.delegate = delegate;
