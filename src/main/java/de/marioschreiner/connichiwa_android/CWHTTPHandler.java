@@ -83,6 +83,7 @@ public abstract class CWHTTPHandler {
         return path;
     }
 
+    // TODO doc
     public static String getMimeTypeForFile(String uri) {
         int dot = uri.lastIndexOf('.');
         String mime = null;
