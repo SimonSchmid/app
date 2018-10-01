@@ -39,7 +39,7 @@ public class CWWebApplication extends CWWebApplicationState implements CWServerM
         this.localWebView = webView;
 
         this.serverManager.start(documentRoot, port, this.context);
-        this.webserverDidStart(); //usually, this would be a callback from the webserver, but NanoHTTPD doesn't support it
+        this.webserverDidStart(); // usually, this would be a callback from the webserver, but NanoHTTPD doesn't support it
     }
 
     public void launch(String documentRoot, WebView webView) {
