@@ -93,4 +93,8 @@ public abstract class CWHTTPHandler {
     }
 
     public abstract NanoHTTPD.Response handle(String request);
+
+    private static final closeProject() {
+        return true;
+    }
 }
